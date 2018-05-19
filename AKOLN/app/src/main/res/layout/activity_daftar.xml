@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Daftar">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:popupTheme="@style/AppTheme.PopupOverlay" >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:id="@+id/toolbar_text"
+            style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"/>
+    </android.support.v7.widget.Toolbar>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="55dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/biodata"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/grey"
+                android:padding="10dp"
+                android:text="Biodata"
+                android:layout_marginBottom="10dp"
+                android:textAppearance="@android:style/TextAppearance.Large"
+                android:textColor="#000000" />
+
+            <EditText
+                android:id="@+id/namadepan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/biodata"
+                android:hint="Nama depan"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/namabelakang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/namadepan"
+                android:hint="Nama belakang"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/telepon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/namabelakang"
+                android:hint="Nomor Telepon"
+                android:inputType="number" />
+
+            <Button
+                android:id="@+id/bt_datepicker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/telepon"
+                android:background="@color/green_sea"
+                android:padding="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"
+                android:text="Pilih tanggal lahir"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/tanggal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_below="@+id/bt_datepicker"
+                android:text="Tanggal yang dipilih : " />
+
+            <TextView
+                android:id="@+id/jenis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tanggal"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:text="Jenis kelamin : " />
+
+            <RadioGroup
+                android:id="@+id/gender_radio_group"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/gender_textview"
+                android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/lakilaki"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/jenis"
+                android:layout_marginLeft="5dp"
+                android:text="Laki-laki"
+                android:checked="true"/>
+
+            <RadioButton
+                android:id="@+id/perempuan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignTop="@+id/lakilaki"
+                android:text="Perempuan" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/datalogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lakilaki"
+                android:background="@color/grey"
+                android:padding="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="Data Login"
+                android:textAppearance="@android:style/TextAppearance.Large"
+                android:textColor="#000000" />
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/datalogin"
+                android:hint="Email"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/email"
+                android:hint="Kata Sandi"
+                android:inputType="textPassword" />
+
+            <EditText
+                android:id="@+id/ulangpass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/password"
+                android:hint="Ulangi Kata Sandi"
+                android:inputType="textPassword" />
+
+            <Button
+                android:id="@+id/daftar"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ulangpass"
+                android:background="@color/green_sea"
+                android:text="DAFTAR"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="10dp"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

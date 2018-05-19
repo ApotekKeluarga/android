@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.aprian_pc.akonline">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label=""
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashScreen"
+            android:label=""
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Login"
+            android:label=""
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.aprian_pc.akonline.Daftar" />
+        </activity>
+        <activity
+            android:name=".Daftar"
+            android:label=""
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.aprian_pc.akonline.Daftar" />
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label=""
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.aprian_pc.akonline.MainActivity" />
+        </activity>
+        <activity android:name=".Checkout" />
+        <activity android:name=".TentangKami" />
+        <activity android:name=".KetentuanLayanan" />
+        <activity android:name=".KetentuanPenggunaan" />
+        <activity android:name=".KetentuanTransaksi" />
+        <activity android:name=".ProfilUser" />
+        <activity
+            android:name=".ObatHerbal"
+            android:label="Obat Herbal"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ObatAntibiotik"
+            android:label="Obat Antibiotik"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ObatSuplemen"
+            android:label="Obat Suplemen"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ObatAnak"
+            android:label="Obat Anak"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".AlatKesehatan"
+            android:label="Alat Kesehatan"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Resep"
+            android:label="Resep"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Cari"
+            android:label="Cari"
+            android:parentActivityName=".MainActivity"></activity>
+        <!--<activity android:name=".SplashScreen"></activity>-->
+    </application>
+
+</manifest>

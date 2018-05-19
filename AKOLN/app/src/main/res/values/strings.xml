@@ -1,0 +1,131 @@
+<resources>
+    <string name="app_name">Apotek Keluarga</string>
+    <string name="action_settings"></string>
+    <string name="activity2">Checkout</string>
+    <string name="activity3">Ketentuan Layanan</string>
+    <string name="activity4">Profil</string>
+    <string name="activity5">Ketentuan Penggunan</string>
+    <string name="activity6">Ketentuan Transaksi</string>
+    <string name="ketentuan_transaksi">1. Pesanan akan ditangani dan dilayani mulai pukul 08.00 sampai 16.00 jam oleh petugas kami.
+        \n
+2. Pesanan dengan metode pengiriman Layanan Antar akan dikirim ke pelanggan paling lambat 1 jam dari SMS / Telepon konfirmasi pengiriman sebelum pengantaran pesanan.
+        \n
+3. Biaya Layanan Antar untuk kawasan Kampus adalah gratis
+        \n
+4. Layanan Antar hanya terbatas maksimal pada Jl. Gajah Mada, Jl. Slamet Riyadi, dan Jl. Letjen Panjaitan, dengan biaya yang ditentukan kemudian
+        \n
+5. Setelah kurir sampai di tempat pelanggan, pelanggan wajib menunjukkan bukti pemesanan agar dapat dicocokkan dengan obat yang dibawa oleh kurir
+        \n
+        6. Uang pembayaran diserahkan kepada kurir \n
+        7. Apotek Keluarga tidak melayani pembelian : \n
+•	Obat golongan opiat, hipnotik, narkotika dan psikotropika \n
+•	Resep racikan \n
+•	Golongan obat keras tanpa disertai resep dokter \n
+•	Obat dengan penanganan khusus (harus disimpan di suhu tertentu, dsb) \n
+8.	Jika setelah memesan, pelanggan tidak dapat dihubungi setelah 3 kali dicoba, maka pesanan dianggap batal. \n
+9.	Harga dan ketersediaan produk dapat berubah tanpa pemberitahuan. Kami berusaha untuk menampilkan harga dan stok yang akurat, namun jika terdapat kesalahan harga yang tertera pada produk yang dipesan, petugas kami akan menginformasikan hal tersebut melalui SMS/WA/Telp, dan akan diberikan pilihan untuk meneruskan pesanan dengan harga yang telah diperbaiki atau membatalkan pesanan. \n
+10.	Untuk pertanyaan dan informasi lain seputar pemesanan dan pengiriman dapat menghubungi kami di +6281 230 289 289 atau email di apotekkeluarga.jawa@gmail.com
+    </string>
+    <string name="ketlay">Ketentuan Layanan (“Ketentuan”) ini mengikat pengguna (“Anda”) aplikasi Apotek Keluarga (“Aplikasi”) dengan kami sebagai pengelola aplikasi ini (“Kami”) terkait pemesanan dan pembelian Produk oleh Anda melalui Aplikasi (“Transaksi”). \n\n
+Ketentuan ini dapat berubah sewaktu-waktu. Dengan tetap menggunakan Aplikasi serta melakukan Transaksi ini walaupun Anda telah mengetahui perubahan tersebut maka Anda dianggap menyetujui isi dari perubahan tersebut. \n\n
+       <b> 1. Aktivitas Transaksi </b> \n
+Untuk melakukan Transaksi, Anda harus melakukan login ke Aplikasi. Untuk setiap Transaksi melalui Aplikasi : \n
+1.	Anda wajib memastikan ketepatan, keakuratan dan kelengkapan perintah Transaksi (termasuk memastikan bahwa semua data yang diperlukan telah diisi secara lengkap dan benar) \n
+2.	Persetujuan atas pelaksanaan Transaksi dilakukan apabila Anda telah menyakini kebenaran dan kelengkapan data yang diisi pada saat sistem melakukan konfirmasi. \n
+3.	Kami menerima dan menjalankan setiap perintah Transaksi dari Anda sebagai perintah yang sah berdasarkan penggunaan login dari Anda dan untuk itu Kami tidak memiliki kewajiban apapun untuk meneliti dan memastikan keabsahan atau kewenangan penggunaan login tersebut dan oleh karena itu perintah tersebut sah mengikat Anda. \n
+4.	Segala transaksi yang telah dikirimkan dan/atau diperintahkan kepada Kami tidak dapat dibatalkan \n
+5.	Setiap perintah yang telah dikirimkan dan/atau disetujui berasal dari Anda yang tersimpan pada pusat data Kami merupakan data yang benar yang diterima sebagai bukti perintah dari Anda kepada Kami untuk melaksanakan Transaksi yang dimaksud. Anda setuju dan mengakui bahwa catatan, print out komputer, salinnan atau bentuk penyimpanan informasi atau data lain yang berasal dari pusat data Kami adalah satu-satunya bukti yang sah atas instruksi dan Transaksi yang berasal dari Anda. \n
+6.	Informasi dan data mengenai waktu Transaksi adalah tanggal efektif yang tercatat di pusat data Kami. \n\n
+
+
+Alamat email yang didaftarkan oleh Anda kepada Kami merupakan alamat email yang akan digunakan oleh Kami untuk mengirimkan informasi Transaksi yang telah dilakukan oleh Anda. Kami hanya mengirimkan informasi kepada alamat email yang telah dikonfirmasikan kebenarannya oleh Anda kepada Kami melalui registrasi dan Kami tidak bertanggung jawab atas kenebaran dan keabsahan alamat email tersebut. Kami tidak menjamin keamanan informasi dan data yang dikirim kepada Kami oleh Anda melalui email yang tidak dalam format yang telah disetujui. \n\n
+
+
+Kami berhak menghentikan Transaksi untuk sementara waktu dengan pemberitahuan sebelumnya untuk kepentingan pembaharuan, pemeliharaan atau untuk tujuan lain yang dianggap perlu oleh Kami. \n\n
+
+
+Setiap kegiatan pemilihan, penentuan dan pemberian Produk (termasuk yang bersumber dari perintah dokter dalam resep) dalam proses Transaksi dilakukan oleh tenaga professional yang berwenang dan memiliki kompetensi professional yaitu Apoteker. \n\n
+
+      <b> 2. User ID dan Password </b> \n
+User ID dan Password merupakan kode yang bersifat rahasia dan kewenangan penggunaannya ada pada Anda. Password bersifat tetap dan tidak dapat diubah oleh Anda. Anda wajib menjaga dengan baik User ID dan Password tersebut. Penggunaan User ID dan Password mempunyai kekuatan hukum yang sama dengan perintah tertulis yang dikirimkan serta ditandatangani oleh Anda. Segala penyalahgunaan Password merupakan tanggung jawab Anda. Anda dengan ini membebaskan Kami dari segala tuntutan, klaim dan gugatan dalam bentuk dan cara apapun yang mungkin timbul, baik dari pihak ketiga maupun Anda sendiri, sebagai akibat penyalahgunaan Password. \n\n
+
+<b>3. Penerimaan dan Penggunaan Data</b> \n
+Dalam melakukan Transaksi, Anda akan mengirimkan data-data yang diperlukan untuk memproses Transaksi termasuk kemungkinan adanya data-data pribadi dalam data tersebut seperti tanggal lahir, nomor telepon pribadi dan alamat tempat tinggal. Dengan melakukan Transaksi, Anda dianggap memberikan data tersebut secara sukarela, berdasarkan pilihan Anda secara mandiri, kepada Kami dan memberikan ijin kepada Kami untuk menyimpan, menggunakan serta mengungkapkan data tersebut kepada pihak ketiga terkait demi kelancaran proses Transaksi. Sebagai contoh, Kami menggunakan data tersebut untuk memproses dan mengkonfirmasi pembayaran (apabila Anda melakukan pembayaran via bank) atau data alamat tempat tinggal untuk mengirimkan Produk kepada Anda. \n\n
+
+
+Data juga kami gunakan untuk (i) kepentingan operasional Aplikasi seperti analisis data, pembaharuan, pengembangan keandalan Aplikasi. \n\n
+
+
+Kepemilikan data tersebut tetap menjadi milik Anda sebagai pemilik dan pembuat data tersebut. Kami menyimpan salinan data tersebut dalam bentuk digital di pusat data Kami atas persetujuan yang telah Anda berikan di atas. Untuk salinan data yang ada di pusat data Kami, kepemilikan data tersebut menjadi milik Kami dan dengan demikian Kami berhak dan berwenang untuk melakukan perubahan, modifikasi, penghapusan dan penggandaan terhadap salinan data tersebut. \n\n
+
+      <b>  4. Batasan Tanggung Jawab </b> ? /n
+Sebagaimana telah ditegaskan dalam Ketentuan Penggunaan, bahwa Aplikasi ini bertujuan untuk memberikan informasi kepada Anda terkait Produk. Sehubungan dengan hal tersebut setiap dan masing-masing informasi dan data yang kami tuangkan sebagai informasi Produk adalah berasal dari lembar informasi, ketentuan pengguna atau pernyataan kandungan dari setiap dan masing-masing Produk. Kami tidak memberikan pendapat terpisah terhadap manfaat, keakuratan dan keandalan dari tiap-tiap Produk terhadap diri Anda. Dengan demikian setiap keputusan dan perintah pemesanan dan pembelian yang Anda lakukan akan selalu diinterpretasikan sebagai (i) bentuk pengetahuan Anda terhadap segala manfaat, keakuratan dan keandalan dari Produk tersebut bagi diri Anda (ii) bentuk persetujuan Anda untuk melakukan Transaksi. Anda dengan ini sepakat untuk melepaskan Kami dari setiap klaim/tuntutan kerugian dari Anda atau pihak ketiga manapun, dalam bentuk dan alasan apapun, atas keputusan Transaksi yang Anda lakukan dan penggunaan Produk oleh Anda secara mandiri. \n\n
+
+
+Anda dengan ini menjamin, membebaskan serta menangung Kami dari setiap klaim/tuntutan kerugian atau permintaan yang timbul akibat (i) Transaksi oleh Anda (ii) pelanggaran Anda terhadap Ketentuan ini. \n\n
+
+<b> 5. Hukum Yang Berlaku </b> \n
+Terhadap Ketentuan ini berlaku hukum negara Republik Indonesia. Setiap akses terhadap Aplikasi yang dilakukan dari yurisdisksi selain Republik Indonesia wajib tunduk pada hukum negara Republik Indonesia. Anda yang mengakses dari lokasi diluar yurisdiksi Republik Indonesia juga wajib, dengan inisiatif Anda sendiri, memastikan dan bertanggung jawab agar akses Anda terhadap Aplikasi serta pelaksanaan Ketentuan tidak melanggar serta patuh terhadap ketentuan peraturan perundang-undangan dan hukum yang berlaku di yurisdiksi di lokasi tersebut.
+</string>
+    <string name="activity7">Tentang Kami</string>
+    <string name="tentangkami">Apotek Keluarga adalah apotek yang berlokasi di Jl. Jawa no. 39B, Kelurahan Sumbersari, Kecamatan Sumbersari, Kabupaten Jember. Apotek Keluarga selain melayani pembelian obat langsung di apotek, juga melayani pemesanan obat melalui aplikasi, sekaligus pengantarannya langsung ke alamat yang diminta oleh pelanggan. Kami menyediakan berbagai macam obat dan kami menjamin semua produk yang dibeli pada aplikasi ini adalah 100% Asli. Harga yang tercantum di aplikasi ini sudah merupakan harga akhir, bukan estimasi lagi. Pesanan pun langsung dapat dikirim dengan cepat karena kami memiliki kurir yang sudah siap di apotek \n\n
+
+Kami berkomitmen melayani Anda dengan sepenuh hati dan berusaha terus-menerus meningkatkan pelayanan kepada pelanggan :)
+</string>
+    <string name="ketpeng">Ketentuan Penggunaan ("Ketentuan") ini mengikat pengguna ("Anda") aplikasi Apotek Keluarga ("Aplikasi") dengan kami sebagai pengelola aplikasi ini ("Kami") terkait penggunaan Aplikasi oleh Anda. Dengan tetap menggunakan Aplikasi ini setelah anda membaca Ketentuan ini maka Anda sepakat untuk tunduk dan mengikatkan diri pada Ketentuan ini. Apabila Anda tidak sepakat atas Ketentuan ini, Anda wajib segera menghentikan penggunaan Aplikasi ini dan/atau meninggalkan Aplikasi ini.
+Ketentuan ini berlaku sejak Anda mengakses Aplikasi. Ketentuan ini dapat berubah sewaktu-waktu. Dengan tetap menggunakan Aplikasi ini walaupun Anda telah mengetahui perubahan tersebut maka Anda dianggap menyetujui isi dari perubahan tersebut. \n\n
+
+        <b> 1. Tujuan Aplikasi </b> \n
+Aplikasi ini bertujuan sebagai media komunikasi dan informasi antara Anda dengan Kami terkait informasi, data dan pemberian perintah pemesanan dan kehendak jual beli terhadap obat dan alat kesehatan yang ditampilkan dalam Aplikasi (Produk). Sehubungan dengan hal tersebut Aplikasi ini tidak dimaksudkan dan tidak dapat dianggap memberikan konsultasi profesional tentang kesehatan atau manfaat medis dari Produk. Setiap pernyataan dan konten ajakan yang tertera atau terkandung dalam Produk adalah dibuat oleh pembuat pernyataan tersebut dan tidak dapat dianggap sebagai pernyataan dari Kami. \n
+Sebagaimana telah ditegaskan dalam paragraf diatas, bahwa Aplikasi ini bertujuan untuk memberikan informasi kepada Anda terkait Produk. Sehubungan dengan hal tersebut setiap dan masing-masing informasi dan data yang kami tuangkan sebagai informasi Produk adalah berasal dari lembar informasi, ketentuan pengguna atau pernyataan kandungan dari setiap dan masing-masing Produk. Kami tidak memberikan pendapat terpisah terhadap manfaat, keakuratan dan keandalan dari tiap-tiap Produk terhadap diri Anda. Dengan demikian setiap keputusan dan perintah pemesanan dan pembelian yang Anda lakukan akan selalu diinterpretasikan sebagai (i) bentuk pengetahuan Anda terhadap segala manfaat, keakuratan dan keandalan dari Produk tersebut bagi diri Anda (ii) bentuk persetujuan Anda untuk melakukan transaksi pemesanan atas Produk melalui Aplikasi ini. Anda dengan ini sepakat untuk melepaskan Kami dari setiap klaim/tuntutan kerugian dari Anda atau pihak ketiga manapun, dalam bentuk dan alasan apapun, atas keputusan transaksi yang Anda lakukan.   \n\n
+
+        <b> 2. Batasan Penggunaan </b> \n
+Kecuali disepakati secara tegas secara lain dalam Ketentuan ini, setiap material termasuk namun tidak terbatas pada logo, gambar, grafik, tulisan, pendapat dan ikon adalah bagian dari Aplikasi ("Material") serta merupakan hak kekayaan intelektual yang dilindungi oleh peraturan perundang-undangan yang berlaku di Indonesia. Anda tidak berhak untuk mengunduh, menggandakan, mengambil gambar, membuat link, mempublikasikan ulang atau mentransmisikan Material untuk tujuan komersial. Tidak ada satupun pemberian hak dalam Ketentuan ini atau bagian Aplikasi lain yang dapat dianggap dan diartikan sebagai pemberian ijin kepada Anda untuk melakukan perbuatan mengunduh, menggandakan, mengambil gambar, membuat link, mempublikasikan ulang atau mentransmisikan tersebut. \n\n
+
+        <b>3. Hubungan Dengan Aplikasi Lain </b> \n
+Dalam Aplikasi dimungkinkan Kami untuk mencantumkan link Aplikasi lain, atau Aplikasi lain mencantumkan link atas Aplikasi ini, atas permintaan pihak ketiga. Pencantuman link tersebut tidak menimbulkan hubungan afiliasi atau keagenan apapun antara Kami dengan Aplikasi tersebut. Kami tidak menjamin keandalan, keamanan, kegunaan dari akses Anda terhadap Aplikasi tersebut. Hubungan hukum saat pengaksesan tersebut adalah antara Anda dengan pengelola Aplikasi tersebut. \n\n
+
+        <b> 4. Batasan Tanggung Jawab </b> \n
+Kami dengan ini melepaskan seluruh jaminan dan persyaratan terkait jaminan atau persyaratan mengenai keadaan dapat diperdagangkan serta cacat tersembunyi, atas keadaan atau ketiadaan virus atau material berbahaya lainnya di dalam Aplikasi yang dapat mengakibatkan tidak berfungsinya media yang Anda gunakan untuk mengakses Aplikasi ini. Anda dengan ini sepakat untuk melepaskan Kami dari setiap klaim/tuntutan kerugian dari Anda atas kondisi ketiadaan dari virus atau sebaliknya. \n
+Anda dengan ini secara tegas menyatakan dan sepakat bahwa penggunaan Aplikasi oleh Anda adalah resiko Anda sendiri. Ketentuan ini tidak dapat dianggap, diartikan atau diinterpretasikan sebagai jaminan dari Kami terhadap (i) keakuratan, keandalan atau kelengkapan dari Aplikasi oleh Anda (ii) kompabilitas Aplikasi dengan media yang Anda gunakan untuk mengakses Aplikasi ini (iii) bahwa Aplikasi bebas dari interupsi, tanpa bug dan tanpa cela (iv) hasil pemrosesan Produk dalam Aplikasi adalah selalu akurat dan dapat diandalkan (v) setiap kekurangan Aplikasi, baik yang disampaikan oleh Anda maupun ditemukan oleh Kami sendiri, akan selalu diperbaiki. Setiap informasi dan pernyataan yang diperoleh oleh Anda dari Kami, baik tertulis maupun lisan, tidak dapat diartikan sebagai pernyataan jaminan Kami atas hal-hal yang telah ditegaskan dalam paragraf ini. \n
+Anda dengan ini menjamin, membebaskan serta menangung Kami dari setiap klaim/tuntutan kerugian atau permintaan yang timbul akibat (i) penggunaan atau akses Aplikasi oleh Anda (ii) pelanggaran Anda terhadap Ketentuan ini. \n
+Anda dengan ini menyatakan memahami dan mengerti bahwa Anda menggunakan Aplikasi berdasarkan inisiatif Anda, tanpa paksaan dari Kami, dan Anda telah mengerti atas setiap resiko yang mungkin timbul dari penggunaan Aplikasi, termasuk namun tidak terbatas pada resiko akibat ketidakcocokan antara platform Aplikasi dengan sistem operasi atau fitur yang digunakan dalam media yang digunakan Anda untuk mengakses Aplikasi. Anda dengan ini sepakat bahwa Kami tidak bertanggung jawab atas setiap kerusakan, kehilangan keuntungan, hilangnya privasi, goodwill, data atau kerusakan/kerugian tidak tampak lainnya, baik secara langsung maupun tidak langsung, karena kecelakaan, kelalaian pihak ketiga, yang timbul dari (i) penggunaan atau tidak digunakannya Aplikasi ini (ii) jasa, data dan informasi dari penerimaan atau pemrosesan informasi, pesan dan code dari kegiatan penggunaan Aplikasi (iii) akses ilegal atau kebocoran data saat pemrosesan informasi, pesan dan kcode Anda pada Aplikasi (iv) pernyataan atau perbuatan pihak ketiga atas Aplikasi (v) terjadinya interupsi, bug atau cela pada aktivitas Aplikasi (vi) setiap akibat lain terkait penggunaan Aplikasi. \n
+Kami juga tidak memberikan pernyataan ataupun jaminan bahwa setiap hak keyaan intelektual dari Material yang ditampilkan dalam Aplikasi ini tetap dalam keadaan terlindungi atau tidak melanggar ketentuan kerahasiaan, perjanjian lisensi atau ketentuan perlindungan hak kekayaan intelektual dari pemilik Material kepada pihak ketiga manapun, termasuk kepada Anda. \n
+
+       <b>  5. Penggunaan Informasi </b> \n
+Setiap persetujuan yang Anda berikan terhadap tawaran atau pertanyaan yang Kami sampaikan kepada Anda terkait penggunaan informasi Anda adalah sah dan valid saat anda melakukan centang dalam box yang Kami sediakan disamping tawaran atau pertanyaan tersebut. \n\n
+
+        <b> 6. Hukum Yang Berlaku </b> \n
+Terhadap Ketentuan ini berlaku hukum negara Republik Indonesia. Setiap akses terhadap Aplikasi yang dilakukan dari yurisdisksi selain Republik Indonesia wajib tunduk pada hukum negara Republik Indonesia. Anda yang mengakses dari lokasi diluar yurisdiksi Republik Indonesia juga wajib, dengan inisiatif Anda sendiri, memastikan dan bertanggung jawab agar akses Anda terhadap Aplikasi serta pelaksanaan Ketentuan tidak melanggar serta patuh terhadap ketentuan peraturan perundang-undangan dan hukum yang berlaku di yurisdiksi di lokasi tersebut. \n\n
+
+<b> 7. Penyelesaian Sengketa </b>
+Setiap perselisihan terkait pelaksanaan Ketentuan ini kedua belah pihak sepakat menyelesaikannya secara muswarah mufakat. Apabila tidak dapat diselesaikan juga, kedua belah pihak dengan ini sepakat menyelesaikannya melalui Kantor Kepaniteraan Pengadilan Negeri Yogyakarta. Anda dengan ini sepakat bahwa Anda tidak lagi berhak mengajukan gugatan, permohonan atau klaim apapun kepada Kami atau lembaga peradilan manapun terkait Ketentuan ini setelah lewat waktu 30 (tiga puluh hari) kalender sejak (i) timbulnya peristiwa/perbuatan yang Anda jadikan dasar untuk mengajukan gugatan atau klaim tersebut; atau (ii) terjadinya serah terima Produk dari Kami kepada Anda. \n\n
+
+<b> 8. Pernyataan Kecakapan </b> \n
+Anda dengan ini menyatakan dan menjamin bahwa Anda adalah subyek hukum yang cakap dan mandiri menurut hukum negara Republik Indonesia serta merupakan subyek hukum yang berhak dan berwenang untuk mengikatkan diri ke dalam Ketentuan ini \n\n
+
+    </string>
+    <string-array name="jalan">
+        <item>Jl. Jawa</item>
+        <item>Jl. Kalimantan</item>
+        <item>Jl. Riau</item>
+        <item>Jl. Sumatra</item>
+        <item>Jl. Mastrip</item>
+        <item>Jl. Danau Toba</item>
+        <item>Jl. Tidar</item>
+        <item>Jl. Kaliurang</item>
+        <item>Jl. Karimata</item>
+        <item>Jl. PB. Sudirman</item>
+        <item>Jl. M. Sruji</item>
+        <item>Jl. Slamet Riyadi</item>
+        <item>Jl. Trunojoyo</item>
+        <item>Jl. Gajah Mada</item>
+        <item>Jl. Sultan Agung</item>
+        <item>Jl. Gatot Subroto</item>
+        <item>Jl. Ahmad Yani</item>
+        <item>Jl. Letjen Suprapto</item>
+        <item>Jl. Letjen Panjaitan</item>
+        <item>Jl. Syamanhudi</item>
+        <item>Jl. RA. Kartini</item>
+    </string-array>
+</resources>
