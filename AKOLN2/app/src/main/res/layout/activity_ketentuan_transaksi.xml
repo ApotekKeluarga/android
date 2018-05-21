@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.aprian_pc.akonline.KetentuanTransaksi">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/ketentuantransaksi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/grey"
+                android:padding="10dp"
+                android:text="Ketentuan Transaksi"
+                android:textAppearance="@android:style/TextAppearance.Large"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/isikettrans"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:padding="5dp"
+                android:text="@string/ketentuan_transaksi"
+                android:textAlignment="textStart"
+                android:textColor="#000000"
+                tools:ignore="RtlCompat" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

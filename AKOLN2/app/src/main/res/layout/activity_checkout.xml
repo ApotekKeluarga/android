@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.aprian_pc.akonline.Checkout">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:popupTheme="@style/AppTheme.PopupOverlay" >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:id="@+id/toolbar_text"
+            style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"/>
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="55dp"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/grey"
+                android:padding="10dp"
+                android:text="Detail Pemesanan"
+                android:textAppearance="@android:style/TextAppearance.Large"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/teksalamat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/detail"
+                android:paddingBottom="10dp"
+                android:text="Pilih jalan terdekat dengan alamat Anda : "
+                android:textSize="15dp" />
+
+            <Spinner
+                android:id="@+id/alamat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/detail"
+                android:entries="@array/jalan" />
+
+            <EditText
+                android:id="@+id/detailalamat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/alamat"
+                android:hint="Detail Alamat"
+                android:inputType="text" />
+
+            <Button
+                android:id="@+id/bt_datepicker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/alamat"
+                android:background="@color/green_sea"
+                android:padding="10dp"
+                android:text="Pilih tanggal pesan"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/tanggal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/bt_datepicker"
+                android:paddingBottom="10dp"
+                android:text="Tanggal yang dipilih : " />
+
+            <TextView
+                android:id="@+id/metode_pembayaran"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tanggal"
+                android:background="@color/grey"
+                android:padding="10dp"
+                android:text="Metode Pembayaran"
+                android:textAppearance="@android:style/TextAppearance.Large"
+                android:textColor="#000000" />
+
+            <RadioButton
+                android:id="@+id/cod"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/metode_pembayaran"
+                android:text="Bayar Ditempat" />
+
+            <TextView
+                android:id="@+id/keterangan_cod"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cod"
+                android:paddingBottom="10dp"
+                android:text="Pembayaran diserahkan kepada kurir, setelah tiba di alamat pengirim" />
+
+            <TextView
+                android:id="@+id/metode_pengiriman"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/keterangan_cod"
+                android:background="@color/grey"
+                android:padding="10dp"
+                android:text="Metode Pengiriman"
+                android:textAppearance="@android:style/TextAppearance.Large"
+                android:textColor="#000000" />
+
+            <RadioButton
+                android:id="@+id/layanan_antar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/metode_pengiriman"
+                android:text="Layanan Antar" />
+
+            <TextView
+                android:id="@+id/keterangan_kirim"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/layanan_antar"
+                android:paddingBottom="10dp"
+                android:text="Pengiriman gratis hanya berlaku untuk kawasan kampus, dan melayani pengiriman berbiaya hingga Jl. Gajah Mada, Jl. Slamet Riyadi, atau Jl. Letjen Suprapto" />
+
+
+            <Button
+                android:id="@+id/konf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/keterangan_kirim"
+                android:background="@color/green_sea"
+                android:text="Konfirmasi Pesanan"
+                android:textAppearance="@android:style/TextAppearance.Large"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
