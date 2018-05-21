@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.aprian_pc.akonline">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Apotek Keluarga"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity
+            android:name=".Login"
+            android:label=""
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Daftar"
+            android:label=""
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.aprian_pc.akonline.Daftar" />
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label=""
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.aprian_pc.akonline.MainActivity" />
+        </activity>
+        <activity android:name=".Checkout" />
+        <activity android:name=".KetentuanLayanan"
+            android:label="Ketentuan Layanan"
+            android:parentActivityName=".Bantuan"
+            android:theme="@style/AppTheme"/>
+        <activity android:name=".KetentuanPenggunaan"
+            android:label="Ketentuan Penggunaan"
+            android:parentActivityName=".Bantuan"
+            android:theme="@style/AppTheme"/>
+        <activity android:name=".KetentuanTransaksi"
+            android:label="Ketentuan Transaksi"
+            android:parentActivityName=".Bantuan"
+            android:theme="@style/AppTheme"/>
+        <activity
+            android:name=".ObatHerbal"
+            android:label="Obat Herbal"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ObatAntibiotik"
+            android:label="Obat Antibiotik"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ObatSuplemen"
+            android:label="Obat Suplemen"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ObatAnak"
+            android:label="Obat Anak"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".AlatKesehatan"
+            android:label="Alat Kesehatan"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Resep"
+            android:label="Resep"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Cari"
+            android:label="Cari"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".KonfirmasiPesanan"
+            android:label="Konfirmasi Pesanan"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Bantuan"
+            android:label="Bantuan"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".TentangKami"
+            android:label="Tentang Kami"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ProfilUser"
+            android:label="Profil"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".Logout"
+            android:label="Logout"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme"/>
+    </application>
+
+</manifest>
