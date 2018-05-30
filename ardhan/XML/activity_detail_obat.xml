@@ -136,7 +136,7 @@
                 android:paddingTop="0dp"
                 android:layout_alignStart="@+id/komp"
                 android:layout_alignLeft="@+id/komp"
-                android:text="3-4 kali sehari 1-2 tablet \nMaksimal 8 tablet per 24 jam \nTidak untuk anak <12 tahun"
+                android:text="@string/text_dosis"
                 android:textColor="@color/black"
                 android:textSize="15sp" />
 

@@ -95,7 +95,7 @@
         <activity
             android:name=".Pages.Cari"
             android:label="Cari"
-            android:parentActivityName=".MainActivity"
+            android:parentActivityName=".Pages.Cari"
             android:theme="@style/AppTheme" />
         <activity
             android:name=".Pages.KonfirmasiPesanan"
@@ -122,9 +122,14 @@
             android:label="Logout"
             android:parentActivityName=".Pages.Logout"
             android:theme="@style/AppTheme" />
-        <activity android:name=".Pages.DetailObat"
+        <activity
+            android:name=".Pages.DetailObat"
             android:label="Detail Obat"
             android:parentActivityName=".Pages.ObatAnak"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".Pages.Troli"
+            android:label="Troli"
+            android:parentActivityName=".Pages.Troli"
             android:theme="@style/AppTheme"/>
     </application>
 
