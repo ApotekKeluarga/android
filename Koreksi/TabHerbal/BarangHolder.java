@@ -27,7 +27,6 @@ public class BarangHolder extends RecyclerView.ViewHolder implements View.OnClic
         btn_beli = (Button) view.findViewById(R.id.btn_beli);
         btn_detail = (Button) view.findViewById(R.id.btn_detail);
         mShowCount = (TextView) view.findViewById(R.id.jumlahpesanan);
-        delete = (Button) view.findViewById(R.id.delete);
         checkbox = (CheckBox) view.findViewById(R.id.checkbox);
         clear = (ImageView) view.findViewById(R.id.clear);
 
