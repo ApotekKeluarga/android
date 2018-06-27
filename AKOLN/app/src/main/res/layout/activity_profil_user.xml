@@ -5,31 +5,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.aprian_pc.akonline.ProfilUser">
-    <android.support.v7.widget.Toolbar
-        android:id="@+id/toolbar"
-        android:layout_width="match_parent"
-        android:layout_height="?attr/actionBarSize"
-        android:background="?attr/colorPrimary"
-        app:popupTheme="@style/AppTheme.PopupOverlay" >
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textColor="#ffffff"
-            android:id="@+id/toolbar_text"
-            style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"/>
-    </android.support.v7.widget.Toolbar>
-
-    <TextView
-        android:id="@+id/profil"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/grey"
-        android:layout_marginTop="55dp"
-        android:padding="10dp"
-        android:text="Profil Akun"
-        android:textAppearance="@android:style/TextAppearance.Large"
-        android:textColor="#000000" />
+    tools:context="com.example.aprian_pc.akonline.Pages.ProfilUser">
 
     <TextView
         android:id="@+id/nama_depan"
@@ -47,7 +23,7 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="5dp"
         android:layout_below="@+id/nama_depan"
-        android:text="Ardhan" />
+        android:text="" />
 
     <TextView
         android:id="@+id/nama_belakang"
@@ -65,7 +41,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/nama_belakang"
         android:layout_marginLeft="5dp"
-        android:text="Febriansyah" />
+        android:text="" />
 
     <TextView
         android:id="@+id/no_telepon"
@@ -83,7 +59,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/no_telepon"
         android:layout_marginLeft="5dp"
-        android:text="081234567890" />
+        android:text="" />
 
     <TextView
         android:id="@+id/tanggal_lahir"
@@ -101,7 +77,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/tanggal_lahir"
         android:layout_marginLeft="5dp"
-        android:text="03-05-2018" />
+        android:text="" />
 
     <TextView
         android:id="@+id/jenis_kelamin"
@@ -119,7 +95,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/jenis_kelamin"
         android:layout_marginLeft="5dp"
-        android:text="Laki-laki" />
+        android:text="" />
 
     <TextView
         android:id="@+id/surel"
@@ -137,5 +113,5 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/surel"
         android:layout_marginLeft="5dp"
-        android:text="febriansyahardhan@gmail.com" />
+        android:text="" />
 </RelativeLayout>

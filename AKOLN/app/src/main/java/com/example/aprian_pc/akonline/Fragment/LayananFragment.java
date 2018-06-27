@@ -1,5 +1,6 @@
 package com.example.aprian_pc.akonline.Fragment;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -10,6 +11,8 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
 
+import com.example.aprian_pc.akonline.Pages.KonfirmasiPesanan;
+import com.example.aprian_pc.akonline.Pages.Bantuan;
 import com.example.aprian_pc.akonline.R;
 
 /**
@@ -32,7 +35,18 @@ public class LayananFragment extends Fragment {
         listview.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                Toast.makeText(getActivity().getApplicationContext(), items[i], Toast.LENGTH_SHORT).show();
+                {
+                    switch (i) {
+                        case 0:
+                            Intent intent = new Intent(LayananFragment.this.getActivity(), KonfirmasiPesanan.class);
+                            startActivity(intent);
+                            break;
+                        case 1:
+                            Intent intent2 = new Intent(LayananFragment.this.getActivity(), Bantuan.class);
+                            startActivity(intent2);
+                            break;
+                    }
+                }
             }
         });
         return rootView;

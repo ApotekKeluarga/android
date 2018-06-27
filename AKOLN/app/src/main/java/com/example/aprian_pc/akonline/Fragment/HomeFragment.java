@@ -8,14 +8,14 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageButton;
 
-import com.example.aprian_pc.akonline.AlatKesehatan;
-import com.example.aprian_pc.akonline.Cari;
-import com.example.aprian_pc.akonline.ObatAnak;
-import com.example.aprian_pc.akonline.ObatAntibiotik;
-import com.example.aprian_pc.akonline.ObatHerbal;
-import com.example.aprian_pc.akonline.ObatSuplemen;
+import com.example.aprian_pc.akonline.Pages.AlatKesehatan;
+import com.example.aprian_pc.akonline.Pages.Cari;
+import com.example.aprian_pc.akonline.Pages.ObatAnak;
+import com.example.aprian_pc.akonline.Pages.ObatAntibiotik;
+import com.example.aprian_pc.akonline.Pages.ObatHerbal;
+import com.example.aprian_pc.akonline.Pages.ObatSuplemen;
 import com.example.aprian_pc.akonline.R;
-import com.example.aprian_pc.akonline.Resep;
+import com.example.aprian_pc.akonline.Pages.Resep;
 
 public class HomeFragment extends Fragment {
 

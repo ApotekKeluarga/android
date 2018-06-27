@@ -1,34 +1,39 @@
 package com.example.aprian_pc.akonline;
 
-import android.annotation.SuppressLint;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.animation.Animation;
-import android.view.animation.AnimationUtils;
-import android.widget.ImageView;
-import android.widget.ViewFlipper;
+
+import com.example.aprian_pc.akonline.Pages.Cari;
+import com.example.aprian_pc.akonline.Pages.Troli;
 import com.example.aprian_pc.akonline.Tab.MyAdapter;
 import com.example.aprian_pc.akonline.Tab.SlidingTabLayout;
+
+import java.util.HashMap;
 
 public class MainActivity extends AppCompatActivity{
 
     private SlidingTabLayout mSlidingTabLayout;
     private ViewPager mViewPager;
-//    private ViewFlipper mViewFlipper;
+    SessionManager sessionManager;
+    //    private ViewFlipper viewFlipper;
 //    private Animation fadeIn, fadeOut;
-    CharSequence Titles[] = {"Beranda","Layanan","Riwayat","Pengaturan"};
+    String Titles[] = {"Beranda","Layanan","Riwayat","Pengaturan"};
     int jml = 4 ;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
+
+        sessionManager = new SessionManager(this);
+        sessionManager.checkLogin();
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -37,17 +42,26 @@ public class MainActivity extends AppCompatActivity{
         getSupportActionBar().setDisplayUseLogoEnabled(true);
 
 
-
         mViewPager = (ViewPager) findViewById(R.id.vp_tabs);
         mViewPager.setAdapter(new MyAdapter(getSupportFragmentManager(), this, Titles, jml));
         mSlidingTabLayout = (SlidingTabLayout) findViewById(R.id.stl_tabs);
         mSlidingTabLayout.setDistributeEvenly(true);
         mSlidingTabLayout.setBackgroundColor(getResources().getColor(R.color.colorPrimary));
-        mSlidingTabLayout.setSelectedIndicatorColors(getResources().getColor(R.color.colorAccent));
+        mSlidingTabLayout.setSelectedIndicatorColors(getResources().getColor(R.color.white));
         mSlidingTabLayout.setCustomTabView(R.layout.tab_view, R.id.tv_tab);
         mSlidingTabLayout.setViewPager(mViewPager);
 
-        }
+//        viewFlipper = (ViewFlipper)findViewById(R.id.flipper);
+//        fadeIn = AnimationUtils.loadAnimation(this,R.anim.fade_in);
+//        fadeOut = AnimationUtils.loadAnimation(this,R.anim.fade_out);
+//        viewFlipper.setInAnimation(fadeIn);
+//        viewFlipper.setOutAnimation(fadeOut);
+//
+//        viewFlipper.setAutoStart(true);
+//        viewFlipper.setFlipInterval(5000);
+//        viewFlipper.startFlipping();
+
+    }
 
 
     @Override
@@ -59,8 +73,16 @@ public class MainActivity extends AppCompatActivity{
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-
-        int id = item.getItemId();
+        switch(item.getItemId()){
+            case R.id.cart :
+                Intent intent = new Intent(this, Troli.class);
+                this.startActivity(intent);
+                break;
+            case R.id.search :
+                Intent intent2 = new Intent(this, Cari.class);
+                this.startActivity(intent2);
+                break;
+        }
 
 
 

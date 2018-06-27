@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.aprian_pc.akonline.Login"
+    tools:context="com.example.aprian_pc.akonline.Pages.Login"
     android:background="#ffffff">
     <ImageView
         android:layout_width="match_parent"
@@ -28,6 +28,9 @@
         android:layout_height="match_parent"
         android:layout_marginTop="250dp"
         android:orientation="vertical">
+        <android.support.design.widget.TextInputLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
             <EditText
                 android:layout_width="322dp"
                 android:layout_height="64dp"
@@ -35,13 +38,24 @@
                 android:id="@+id/username"
                 android:hint="Email"
                 android:layout_marginLeft="20dp"/>
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            app:passwordToggleEnabled="true">
             <EditText
                 android:layout_width="322dp"
                 android:layout_height="64dp"
                 android:inputType="textPassword"
                 android:id="@+id/password"
-                android:hint="Password"
+                android:hint="Kata Sandi"
                 android:layout_marginLeft="20dp"/>
+        </android.support.design.widget.TextInputLayout>
+        <ProgressBar
+            android:id="@+id/loading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"/>
 
         <Button
             android:layout_width="wrap_content"
@@ -52,7 +66,7 @@
             android:background="#227093"
             android:textStyle="bold"
             android:textColor="#ffffff"
-            android:layout_marginTop="10dp"/>
+            android:layout_marginTop="45dp"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -61,7 +75,7 @@
             android:textSize="15dp"
             android:layout_marginLeft="80dp"
             android:layout_marginTop="10dp"/>
-        <Button
+        <TextView
             android:id="@+id/daftar"
             android:layout_width="60dp"
             android:layout_height="30dp"
@@ -70,8 +84,8 @@
             android:background="@color/white"
             android:textStyle="bold"
             android:textSize="15dp"
-            android:layout_marginLeft="215dp"
-            android:layout_marginTop="-25dp" />
+            android:layout_marginLeft="219dp"
+            android:layout_marginTop="-20dp" />
 
 
 

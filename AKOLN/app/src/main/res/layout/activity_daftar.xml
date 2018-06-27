@@ -5,24 +5,10 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Daftar">
-    <android.support.v7.widget.Toolbar
-        android:id="@+id/toolbar"
-        android:layout_width="match_parent"
-        android:layout_height="?attr/actionBarSize"
-        android:background="?attr/colorPrimary"
-        app:popupTheme="@style/AppTheme.PopupOverlay" >
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textColor="#ffffff"
-            android:id="@+id/toolbar_text"
-            style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"/>
-    </android.support.v7.widget.Toolbar>
+    tools:context=".Pages.Daftar">
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginTop="55dp">
+        android:layout_height="match_parent">
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -38,7 +24,9 @@
                 android:layout_marginBottom="10dp"
                 android:textAppearance="@android:style/TextAppearance.Large"
                 android:textColor="#000000" />
-
+<android.support.design.widget.TextInputLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent">
             <EditText
                 android:id="@+id/namadepan"
                 android:layout_width="match_parent"
@@ -46,7 +34,11 @@
                 android:layout_below="@id/biodata"
                 android:hint="Nama depan"
                 android:inputType="text" />
+</android.support.design.widget.TextInputLayout>
 
+<android.support.design.widget.TextInputLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent">
             <EditText
                 android:id="@+id/namabelakang"
                 android:layout_width="match_parent"
@@ -54,7 +46,11 @@
                 android:layout_below="@+id/namadepan"
                 android:hint="Nama belakang"
                 android:inputType="text" />
+</android.support.design.widget.TextInputLayout>
 
+<android.support.design.widget.TextInputLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent">
             <EditText
                 android:id="@+id/telepon"
                 android:layout_width="match_parent"
@@ -62,6 +58,7 @@
                 android:layout_below="@+id/namabelakang"
                 android:hint="Nomor Telepon"
                 android:inputType="number" />
+</android.support.design.widget.TextInputLayout>
 
             <Button
                 android:id="@+id/bt_datepicker"
@@ -75,7 +72,10 @@
                 android:layout_marginBottom="5dp"
                 android:text="Pilih tanggal lahir"
                 android:textColor="@color/white" />
-
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
             <TextView
                 android:id="@+id/tanggal"
                 android:layout_width="wrap_content"
@@ -84,6 +84,11 @@
                 android:layout_marginLeft="5dp"
                 android:layout_below="@+id/bt_datepicker"
                 android:text="Tanggal yang dipilih : " />
+            <TextView
+                android:id="@+id/resulttanggal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+</LinearLayout>
 
             <TextView
                 android:id="@+id/jenis"
@@ -131,7 +136,9 @@
                 android:text="Data Login"
                 android:textAppearance="@android:style/TextAppearance.Large"
                 android:textColor="#000000" />
-
+<android.support.design.widget.TextInputLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent">
             <EditText
                 android:id="@+id/email"
                 android:layout_width="match_parent"
@@ -139,7 +146,12 @@
                 android:layout_below="@+id/datalogin"
                 android:hint="Email"
                 android:inputType="text" />
+</android.support.design.widget.TextInputLayout>
 
+<android.support.design.widget.TextInputLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                app:passwordToggleEnabled="true">
             <EditText
                 android:id="@+id/password"
                 android:layout_width="match_parent"
@@ -147,7 +159,12 @@
                 android:layout_below="@+id/email"
                 android:hint="Kata Sandi"
                 android:inputType="textPassword" />
+</android.support.design.widget.TextInputLayout>
 
+<android.support.design.widget.TextInputLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                app:passwordToggleEnabled="true">
             <EditText
                 android:id="@+id/ulangpass"
                 android:layout_width="match_parent"
@@ -155,7 +172,13 @@
                 android:layout_below="@+id/password"
                 android:hint="Ulangi Kata Sandi"
                 android:inputType="textPassword" />
+</android.support.design.widget.TextInputLayout>
 
+            <ProgressBar
+                android:id="@+id/loading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"/>
             <Button
                 android:id="@+id/daftar"
                 android:layout_width="200dp"

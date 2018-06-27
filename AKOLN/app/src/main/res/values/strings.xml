@@ -58,7 +58,7 @@ Data juga kami gunakan untuk (i) kepentingan operasional Aplikasi seperti analis
 
 Kepemilikan data tersebut tetap menjadi milik Anda sebagai pemilik dan pembuat data tersebut. Kami menyimpan salinan data tersebut dalam bentuk digital di pusat data Kami atas persetujuan yang telah Anda berikan di atas. Untuk salinan data yang ada di pusat data Kami, kepemilikan data tersebut menjadi milik Kami dan dengan demikian Kami berhak dan berwenang untuk melakukan perubahan, modifikasi, penghapusan dan penggandaan terhadap salinan data tersebut. \n\n
 
-      <b>  4. Batasan Tanggung Jawab </b> ? /n
+      <b>  4. Batasan Tanggung Jawab ?</b>  \n
 Sebagaimana telah ditegaskan dalam Ketentuan Penggunaan, bahwa Aplikasi ini bertujuan untuk memberikan informasi kepada Anda terkait Produk. Sehubungan dengan hal tersebut setiap dan masing-masing informasi dan data yang kami tuangkan sebagai informasi Produk adalah berasal dari lembar informasi, ketentuan pengguna atau pernyataan kandungan dari setiap dan masing-masing Produk. Kami tidak memberikan pendapat terpisah terhadap manfaat, keakuratan dan keandalan dari tiap-tiap Produk terhadap diri Anda. Dengan demikian setiap keputusan dan perintah pemesanan dan pembelian yang Anda lakukan akan selalu diinterpretasikan sebagai (i) bentuk pengetahuan Anda terhadap segala manfaat, keakuratan dan keandalan dari Produk tersebut bagi diri Anda (ii) bentuk persetujuan Anda untuk melakukan Transaksi. Anda dengan ini sepakat untuk melepaskan Kami dari setiap klaim/tuntutan kerugian dari Anda atau pihak ketiga manapun, dalam bentuk dan alasan apapun, atas keputusan Transaksi yang Anda lakukan dan penggunaan Produk oleh Anda secara mandiri. \n\n
 
 
@@ -98,13 +98,14 @@ Setiap persetujuan yang Anda berikan terhadap tawaran atau pertanyaan yang Kami 
         <b> 6. Hukum Yang Berlaku </b> \n
 Terhadap Ketentuan ini berlaku hukum negara Republik Indonesia. Setiap akses terhadap Aplikasi yang dilakukan dari yurisdisksi selain Republik Indonesia wajib tunduk pada hukum negara Republik Indonesia. Anda yang mengakses dari lokasi diluar yurisdiksi Republik Indonesia juga wajib, dengan inisiatif Anda sendiri, memastikan dan bertanggung jawab agar akses Anda terhadap Aplikasi serta pelaksanaan Ketentuan tidak melanggar serta patuh terhadap ketentuan peraturan perundang-undangan dan hukum yang berlaku di yurisdiksi di lokasi tersebut. \n\n
 
-<b> 7. Penyelesaian Sengketa </b>
+<b> 7. Penyelesaian Sengketa </b> \n
 Setiap perselisihan terkait pelaksanaan Ketentuan ini kedua belah pihak sepakat menyelesaikannya secara muswarah mufakat. Apabila tidak dapat diselesaikan juga, kedua belah pihak dengan ini sepakat menyelesaikannya melalui Kantor Kepaniteraan Pengadilan Negeri Yogyakarta. Anda dengan ini sepakat bahwa Anda tidak lagi berhak mengajukan gugatan, permohonan atau klaim apapun kepada Kami atau lembaga peradilan manapun terkait Ketentuan ini setelah lewat waktu 30 (tiga puluh hari) kalender sejak (i) timbulnya peristiwa/perbuatan yang Anda jadikan dasar untuk mengajukan gugatan atau klaim tersebut; atau (ii) terjadinya serah terima Produk dari Kami kepada Anda. \n\n
 
 <b> 8. Pernyataan Kecakapan </b> \n
 Anda dengan ini menyatakan dan menjamin bahwa Anda adalah subyek hukum yang cakap dan mandiri menurut hukum negara Republik Indonesia serta merupakan subyek hukum yang berhak dan berwenang untuk mengikatkan diri ke dalam Ketentuan ini \n\n
 
     </string>
+    <string name="text_dosis"><![CDATA[3-4 kali sehari 1-2 tablet  Maksimal 8 tablet per 24 jam  Tidak untuk anak <12 tahun]]></string>
     <string-array name="jalan">
         <item>Jl. Jawa</item>
         <item>Jl. Kalimantan</item>
