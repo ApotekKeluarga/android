@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Pages.DetailObat">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="55dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/foto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/antibiotik" />
+
+            <TextView
+                android:id="@+id/nama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/foto"
+                android:gravity="center"
+                android:paddingTop="20dp"
+                android:text="Bodrex Tablet"
+                android:textColor="@color/black"
+                android:textSize="@dimen/default_judul" />
+
+            <TextView
+                android:id="@+id/harga"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/nama"
+                android:gravity="center"
+                android:paddingTop="0dp"
+                android:text="Rp. 3.900,-"
+                android:textColor="@color/green_sea"
+                android:textSize="@dimen/default_judul" />
+
+
+            <TextView
+                android:id="@+id/labelkomp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/harga"
+                android:paddingTop="20dp"
+                android:text="Komposisi : "
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/komp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/harga"
+                android:layout_toRightOf="@+id/labelkomp"
+                android:paddingTop="20dp"
+                android:text="Paracetamol 600 mg dan Kafein 50 mg"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/labeldes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/komp"
+                android:paddingTop="0dp"
+                android:text="Deskripsi : "
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/deskripsi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/komp"
+                android:layout_toRightOf="@+id/labeldes"
+                android:paddingTop="0dp"
+                android:layout_alignLeft="@+id/komp"
+                android:layout_alignStart="@+id/komp"
+                android:text="Paracetamol berfungsi sebagai anti nyeri dan penurun panas atau demam, paduan dengan kafein meningkatkan efek analgetik sehingga mampu meredakan nyeri ringan-sedang dengan cepat"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/labelindi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/deskripsi"
+                android:paddingTop="0dp"
+                android:text="Indikasi : "
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/indi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/deskripsi"
+                android:layout_toRightOf="@+id/labelkomp"
+                android:paddingTop="0dp"
+                android:text="Meringankan sakit kepala, migrain, demam, dan pusing"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/labeldos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/indi"
+                android:paddingTop="0dp"
+                android:text="Dosis : "
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/dosis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/indi"
+                android:layout_toRightOf="@+id/labeldos"
+                android:paddingTop="0dp"
+                android:layout_alignStart="@+id/komp"
+                android:layout_alignLeft="@+id/komp"
+                android:text="@string/text_dosis"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/labelpen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/dosis"
+                android:paddingTop="0dp"
+                android:text="Penyajian : "
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/penyajian"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/dosis"
+                android:layout_toRightOf="@+id/labelpen"
+                android:paddingTop="0dp"
+                android:layout_alignStart="@+id/komp"
+                android:layout_alignLeft="@+id/komp"
+                android:text="Sesudah makan"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/labelkem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/penyajian"
+                android:paddingTop="0dp"
+                android:text="Kemasan : "
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/kemasan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/penyajian"
+                android:layout_toRightOf="@+id/labelkem"
+                android:paddingTop="0dp"
+                android:layout_alignStart="@+id/komp"
+                android:layout_alignLeft="@+id/komp"
+                android:text="1 Dos isi 2 strip x 10 tablet"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/labelpab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/kemasan"
+                android:paddingTop="0dp"
+                android:text="Pabrik : "
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/pabrik"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/kemasan"
+                android:layout_toRightOf="@+id/labelpab"
+                android:paddingTop="0dp"
+                android:layout_alignStart="@+id/komp"
+                android:layout_alignLeft="@+id/komp"
+                android:text="Tempo Scan"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

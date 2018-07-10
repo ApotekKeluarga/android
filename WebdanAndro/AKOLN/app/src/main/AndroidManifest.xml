@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.aprian_pc.akonline">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Apotek Keluarga"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity
+            android:name=".Pages.SplashScreen"
+            android:label=""
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Pages.Login"
+            android:label=""
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.aprian_pc.akonline.Pages.Login" />
+        </activity>
+        <activity
+            android:name=".Pages.Daftar"
+            android:label="Daftar"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.aprian_pc.akonline.Pages.Daftar" />
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label=""
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.aprian_pc.akonline.MainActivity" />
+        </activity>
+        <activity android:name=".Pages.Checkout"
+            android:label="Pemesanan"
+            android:parentActivityName=".Pages.Troli"
+            android:theme="@style/AppTheme"/>
+        <activity
+            android:name=".Pages.KetentuanLayanan"
+            android:label="Ketentuan Layanan"
+            android:parentActivityName=".Pages.Bantuan"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Pages.KetentuanPenggunaan"
+            android:label="Ketentuan Penggunaan"
+            android:parentActivityName=".Pages.Bantuan"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Pages.KetentuanTransaksi"
+            android:label="Ketentuan Transaksi"
+            android:parentActivityName=".Pages.Bantuan"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Pages.ObatHerbal"
+            android:label="Obat Herbal"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Pages.ObatAntibiotik"
+            android:label="Obat Antibiotik"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Pages.ObatSuplemen"
+            android:label="Obat Suplemen"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Pages.ObatAnak"
+            android:label="Obat Anak"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Pages.AlatKesehatan"
+            android:label="Alat Kesehatan"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Pages.Resep"
+            android:label="Resep"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Pages.Cari"
+            android:label="Cari"
+            android:parentActivityName=".Pages.Cari"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Pages.KonfirmasiPesanan"
+            android:label="Konfirmasi Pesanan"
+            android:parentActivityName=".Pages.KonfirmasiPesanan"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Pages.Bantuan"
+            android:label="Bantuan"
+            android:parentActivityName=".Pages.Bantuan"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Pages.TentangKami"
+            android:label="Tentang Kami"
+            android:parentActivityName=".Pages.TentangKami"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Pages.ProfilUser"
+            android:label="Profil"
+            android:parentActivityName=".Pages.ProfilUser"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Pages.Logout"
+            android:label="Logout"
+            android:parentActivityName=".Pages.Logout"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Pages.DetailObat"
+            android:label="Detail Obat"
+            android:parentActivityName=".Pages.ObatAnak"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Pages.Troli"
+            android:label="Troli"
+            android:parentActivityName=".Pages.Troli"
+            android:theme="@style/AppTheme" />
+    </application>
+
+</manifest>
